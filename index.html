@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="fontawesome-free-5.10.2-web\css\all.css">
+    <script defer src="fontawesome-free-5.10.2-web\js\all.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Space+Mono&display=swap" rel="stylesheet">
+    <title>Portfolio - Jason Bishop</title>
+  </head>
+  <body >
+    <!-- Mobile Menu -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white mobile-menu">
+     <a class="navbar-brand" href="#"></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+     </button>
+
+     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+       <ul class="navbar-nav mr-auto">
+         <li class="nav-item">
+           <a class="nav-link" href="#">Home</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Projects</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Skills</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">About</a>
+         </li>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Contact</a>
+         </li>
+       </ul>
+     </div>
+    </nav>
+
+    <!-- Desktop Menu -->
+    <nav id="mySidenav" class="sidenav">
+      <ul class="navbar-nav">
+        <li><a href="#home" id="home-button" class="nav-link sidenav-item active">Home</a></li>
+        <li><a href="#projects" id="projects-button" class="nav-link sidenav-item">Projects</a></li>
+        <li><a href="#skills" id="skills-button" class="nav-link sidenav-item">Skills</a></li>
+        <li><a href="#about" id="about-button" class="nav-link sidenav-item">About</a></li>
+        <li><a href="#contact" id="contact-button" class="nav-link sidenav-item">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="content" data-spy="scroll" data-target="#mySidenav" data-offset="10">
+      <div class="container welcome-container section" id="home">
+        <ul id="scene" class="scene">
+          <li class="layer" data-depth="1">
+            <img src="img/parallax/bg-2.png"></img>
+          </li>
+          <li class="layer" data-depth="-0.5">
+            <img src="img/parallax/bg-3.png"></img>
+          </li>
+          <li class="layer" data-depth="2">
+            <img src="img/parallax/bg-4.png"></img>
+          </li>
+        </ul>
+        <div class="container">
+          <h1 class="center welcome-title" data-text="Welcome To My Portfolio">Welcome To My Portfolio</h1>
+          <h2 class="center welcome-title-by" data-text="By Jason Bishop">By Jason Bishop</h2>
+          <div class="socials">
+            <a href="https://github.com/jaysson29" target="_blank" class="social-button"><i class="fab fa-github"></i><span class="tooltiptext">GitHub</span></a>
+            <a href="https://www.linkedin.com/in/jason-bishop-324934173/" target="_blank" class="social-button" ><i class="fab fa-linkedin"></i><span class="tooltiptext">Linkedin</span></a>
+            <a href="CV/jason_CV-Web_2019.docx" class="social-button"><i class="fas fa-file-download"></i><span class="tooltiptext">CV</span></a>
+            <a href="mailto:j.bishop29@hotmail.com" class="social-button"><i class="fas fa-inbox"></i><span class="tooltiptext">Email</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container project-container section" id="projects">
+        <div class="container">
+          <h1 class="project-header">PROJECTS</h1>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="project">
+                <div class="project-buttons">
+                  <div class="project-info">
+                    <h5>School Project</h5>
+                    <p>This Website Was Made For A University Project To Complete The Module. I used HTML, CSS And Javascript To Create This Site</p>
+                  </div>
+                  <a href="https://github.com/jaysson29/Arden-Primary-School" target="_blank" class="btn btn-primary project-button"><i class="fab fa-github"></i> View Code</a>
+                  <a href="https://jaysson29.github.io/Arden-Primary-School/" target="_blank" class="btn btn-primary project-button">Live Preview</a>
+                </div>
+                <img class="w-100 h-100" src="img\projects\snapshot5.jpg" alt="School Project">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="project">
+                <div class="project-buttons">
+                  <div class="project-info">
+                    <h5>E-Commerce</h5>
+                    <p>This Website Was Made For A Friend To Start Up His Own Clothing E-Commerce Site. I used HTML, CSS, Javascript, DJango And Python To Create This Site</p>
+                  </div>
+                  <a href="https://github.com/jaysson29/Project-5-Full-Stack" target="_blank" class="btn btn-primary project-button"><i class="fab fa-github"></i> View Code</a>
+                  <a href="https://project-5-ecommerce-shop.herokuapp.com/" target="_blank" class="btn btn-primary project-button">Live Preview</a>
+                </div>
+                <img class="w-100 h-100" src="img\projects\snapshot4.jpg" alt="E-Commerce Project">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="project">
+                <div class="project-buttons">
+                  <div class="project-info">
+                    <h5>Gaming Receipe Site</h5>
+                    <p>This Website Was Made For A Project To Complete A Module For My Online Course. I used HTML, CSS, Javascript, Flask, Python And MongoDB To Create This Site</p>
+                  </div>
+                  <a href="https://github.com/jaysson29/project-4-data-centric" target="_blank" class="btn btn-primary project-button"><i class="fab fa-github"></i> View Code</a>
+                  <a href="https://project-4-data-centric-jason.herokuapp.com/" target="_blank" class="btn btn-primary project-button">Live Preview</a>
+                </div>
+                <img class="w-100 h-100" src="img\projects\snapshot3.jpg" alt="Gaming Project">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="project">
+                <div class="project-buttons">
+                  <div class="project-info">
+                    <h5>Space</h5>
+                    <p>This Website Was Made As A Hobby As I Am Really Passionate About Space. I used HTML, CSS And Javascript To Create This Site</p>
+                  </div>
+                  <a href="https://github.com/jaysson29/project-1-space" target="_blank" class="btn btn-primary project-button"><i class="fab fa-github"></i> View Code</a>
+                  <a href="http://jaysson29.github.io/project-1-space" target="_blank" class="btn btn-primary project-button">Live Preview</a>
+                </div>
+                <img class="w-100 h-100" src="img\projects\Snapshot1.jpg" alt="Space Project">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="project">
+                <div class="project-buttons">
+                  <div class="project-info">
+                    <h5>Planet Simon Game</h5>
+                    <p>This Website Was Made For A Project To Complete A Module For My Online Course. I used HTML, CSS And Javascript To Create This Site</p>
+                  </div>
+                  <a href="https://github.com/jaysson29/project-2-simon" target="_blank" class="btn btn-primary project-button"><i class="fab fa-github"></i> View Code</a>
+                  <a href="https://jaysson29.github.io/project-2-simon/" target="_blank" class="btn btn-primary project-button">Live Preview</a>
+                </div>
+                <img class="w-100 h-100" src="img\projects\simon-preview.jpg" alt="Simon Game Project">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="project">
+                <div class="project-buttons">
+                  <div class="project-info">
+                    <h5>Riddle Me This</h5>
+                    <p>This Website Was Made For A Project To Complete A Module For My Online Course. I used HTML, CSS, Javascript, Flask And Python To Create This Site</p>
+                  </div>
+                  <a href="https://github.com/jaysson29/project-3-riddle-me-this" target="_blank" class="btn btn-primary project-button"><i class="fab fa-github"></i> View Code</a>
+                  <a href="http://project-3-riddle-jason.herokuapp.com/" target="_blank" class="btn btn-primary project-button">Live Preview</a>
+                </div>
+                <img class="w-100 h-100" src="img\projects\Snapshot2.jpg" alt="Javascript Game Project">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container skills-container section" id="skills">
+        <div class="container">
+          <h1 class="skills-header">SKILLS</h1>
+          <div class="row">
+            <div class="col-sm skill-col">
+              <h1>FRONT END</h1>
+              <div class="row">
+                <div class="col-sm-12 skill-div"><i class="fab fa-html5 skill-icon orange"></i> <h3>HTML 5</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fab fa-css3-alt skill-icon text-primary"></i> <h3>CSS 3</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fab fa-js-square skill-icon text-warning"></i> <h3>JAVASCRIPT</h3></div>
+                <div class="col-sm-12 skill-div"><img src="img/skills/jquery.png" height="70px" width="70px"></img> <h3>JQUERY</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fab fa-bootstrap skill-icon purple"></i> <h3>BOOTSTRAP</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fas fa-paint-roller skill-icon text-danger"></i> <h3>MATERLIZE CSS</h3></div>
+              </div>
+            </div>
+            <div class="col-sm skill-col">
+              <h1>BACK END</h1>
+              <div class="row">
+                <div class="col-sm-12 skill-div"><img src="img/skills/django.png" height="60px" width="130px"></img> <h3>DJANGO</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fab fa-python skill-icon"></i> <h3>PYTHON</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fab fa-envira skill-icon text-success"></i> <h3>MONGODB</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fab fa-php skill-icon purple"></i> <h3>PHP</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fab fa-react skill-icon text-info"></i> <h3>REACT JS</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fas fa-database skill-icon orange"></i> <h3>SQL</h3></div>
+              </div>
+            </div>
+            <div class="col-sm skill-col">
+              <h1>OTHER</h1>
+              <div class="row">
+                <div class="col-sm-12 skill-div"><i class="fab fa-github-square skill-icon"></i> <h3>GITHUB</h3></div>
+                <div class="col-sm-12 skill-div"><img src="img/skills/heroku.png" height="50px" width="50px"></img> <h3>HEROKU</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fab fa-aws skill-icon"></i> <h3>AMAZON WEB SERVICES</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fab fa-adobe skill-icon text-danger"></i> <h3>ADOBE PHOTOSHOP</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fas fa-sitemap skill-icon"></i> <h3>WIREFRAMES</h3></div>
+                <div class="col-sm-12 skill-div"><i class="fas fa-pencil-ruler skill-icon text-primary"></i> <h3>UI & UX</h3></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container about-container section" id="about">
+        <div class="container">
+          <h1 class="about-header">ABOUT ME</h1>
+          <div class="row">
+            <div class="col-sm about-col">
+              <div class="card">
+                <div class="card-top bg-primary">
+                  <i class="fas fa-question card-icon"></i>
+                  <h3>WHAT DO I DO?</h3>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">I am a skilled Full Stack Developer with a wealth of diverse life and technical experience that i will bring to every project.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm about-col">
+              <div class="card">
+                <div class="card-top bg-danger">
+                  <i class="fas fa-bolt card-icon"></i>
+                  <h3>HOW DO I DO IT?</h3>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">I follow form as well as function. I know that the aesthetics of effective design combined with applications speed, security, reliability and a great user experience.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm about-col ">
+              <div class="card">
+                <div class="card-top bg-success">
+                  <i class="fas fa-thumbs-up card-icon"></i>
+                  <h3>WHY WORK WITH ME?</h3>
+                </div>
+                <div class="card-body">
+                  <p class="card-text">I work quickly and effectively in getting things built and working across the stack. I'm an excellent communicator who thrives in bright and enthusiastic teams, I'm also a self starter when working solo.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm about-col">
+              <div class="card card-row">
+                <div class="card-top card-row-top bg-secondary">
+                  <i class="fas fa-tv card-row-icon"></i>
+                  <h3>FRONT END</h3>
+                </div>
+                <div class="card-body">
+                  <p class="card-text card-row-text">I'm skilled in User Experience Design Using the trinity of HTML/CSS/Javascript. I also have extensive experience in Front End Frameworks such as Bootstrap, React and More.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm about-col">
+              <div class="card card-row">
+                <div class="card-top card-row-top bg-dark">
+                  <i class="fas fa-cogs card-row-icon"></i>
+                  <h3>BACK END</h3>
+                </div>
+                <div class="card-body">
+                  <p class="card-text card-row-text">I specialize in data-driven web applications. Many of my projects utilise document-based data. I use Python and Django in conjunction with MongoDB to process and present information.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container contact-container section" id="contact">
+        <div class="container">
+          <h1 class="contact-header">WANT TO CHAT ?</h1>
+          <div class="row">
+            <div class="col-sm-12">
+              <form class="contact-form">
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Name</label>
+                  <input type="text" class="form-control" id="nameInput" placeholder="Enter Your Name Here...">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlInput1">Email address</label>
+                  <input type="email" class="form-control" id="emailInput" placeholder="Enter Your Email Here e.g(name@example.com)...">
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlSelect1">Reason For Contact</label>
+                  <select class="form-control" id="reasonSelectInput">
+                    <option>To Chat</option>
+                    <option>To Hire</option>
+                    <option>To Enquire</option>
+                    <option>Other...</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextarea1">Message</label>
+                  <textarea class="form-control contact-message" id="messageInput" rows="5" placeholder="Enter Your Message Here..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-success contact-button">Submit</button>
+              </form>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <h4 class="contact-copyright">Copyright <i class="far fa-copyright"></i> Jason Bishop 2019</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
+    <script type="text/javascript">
+      var scene = document.getElementById('scene');
+      var parallaxInstance = new Parallax(scene, {
+        relativeInput: true
+      });
+    </script>
+
+    <script src="js\main.js"></script>
+  </body>
+</html>
